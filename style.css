@@ -10,7 +10,12 @@
     --dark-cyan: hsl(184, 100%, 22%);
     --very-dark-cyan: hsl(179, 100%, 13%);
 }
-
+.container{
+    height: 700px;
+    width: 800px;
+    display: flex;
+    margin-left: 320px;
+}
 .columnas {
     background-color: hsl(0, 0%, 95%);
     min-height: 700px;

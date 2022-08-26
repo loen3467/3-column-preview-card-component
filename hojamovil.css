@@ -1,0 +1,14 @@
+.columnas{
+    height: 700px;
+    width: 400px;
+    flex-direction: column;
+    margin-top: 450px;
+    align-items: flex-start;
+    margin-left: 0px;
+}
+.primera{
+    border-radius: 10px 10px 0 0;
+}
+.tercera{
+    border-radius: 0 0 10px 10px;
+}
