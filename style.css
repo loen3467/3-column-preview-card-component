@@ -4,27 +4,19 @@
     box-sizing: border-box;
     font-family: 'Lexend Deca', sans-serif;
 }
-
 :root {
     --bright-orange: hsl(31, 77%, 52%);
     --dark-cyan: hsl(184, 100%, 22%);
     --very-dark-cyan: hsl(179, 100%, 13%);
 }
-.container{
-    height: 700px;
-    width: 800px;
-    display: flex;
-    margin-left: 320px;
-}
 .columnas {
-    background-color: hsl(0, 0%, 95%);
-    min-height: 700px;
+    background-color: hsl(0, 100%, 100%);
+    min-height: 750px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-
 .columna {
     background-color: var(--dark-cyan);
     min-height: 480px;
@@ -32,23 +24,19 @@
     padding: 40px;
     position: relative;
 }
-
 .columna .image {
     margin-bottom: 24px;
 }
-
 .columna h1 {
     color: hsl(0, 0%, 95%);
     font-size: 36px;
     font-family: 'Big Shoulders Display', cursive;
 }
-
 .columna p {
     color: hsla(0, 0%, 100%, 0.60);
     margin-top: 24px;
     margin-bottom: 96px;
 }
-
 .columna button {
     position: absolute;
     bottom: 0;
@@ -66,11 +54,9 @@
     background-color: hsl(31, 77%, 52%);
     border-radius: 16px 0 0 16px;
 }
-
 .primera button {
     color: hsl(31, 77%, 52%);
 }
-
 
 .segunda {
     background-color: hsl(184, 100%, 22%);
@@ -78,12 +64,12 @@
 .segunda button {
     color: hsl(184, 100%, 22%);
 }
+
 .tercera {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 16px 16px 0px;
 
 }
-
 .tercera button {
     color: hsl(179, 100%, 13%);
 }
