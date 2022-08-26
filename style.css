@@ -66,3 +66,11 @@
     color: hsl(31, 77%, 52%);
 }
 
+
+.segunda {
+    background-color: hsl(184, 100%, 22%);
+}
+.segunda button {
+    color: hsl(184, 100%, 22%);
+}
+
