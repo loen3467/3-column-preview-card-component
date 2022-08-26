@@ -73,4 +73,12 @@
 .segunda button {
     color: hsl(184, 100%, 22%);
 }
+.tercera {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 16px 16px 0px;
 
+}
+
+.tercera button {
+    color: hsl(179, 100%, 13%);
+}
