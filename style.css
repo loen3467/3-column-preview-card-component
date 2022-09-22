@@ -8,6 +8,30 @@
     --bright-orange: hsl(31, 77%, 52%);
     --dark-cyan: hsl(184, 100%, 22%);
     --very-dark-cyan: hsl(179, 100%, 13%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+}
+.button-container{
+    margin-top: 20px;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.button{
+    font-size: 20px;
+    width: 150px;
+    border-radius: 5px;
+    border:3px solid black;
+    cursor: pointer;
+    background-color: rgb(179, 44, 98);
+    color: white;
+}
+.button:hover{
+    color:var(--Very-dark-blackish-blue);
+    background-color: var(--White);
+}
+.button:disabled{
+    opacity: 0.5;
 }
 .columnas {
     background-color: hsl(0, 100%, 100%);
@@ -72,4 +96,9 @@
 }
 .tercera button {
     color: hsl(179, 100%, 13%);
+}
+
+button:hover{
+    background-color:transparent;
+    color:hsl(0, 0%, 95%);
 }
