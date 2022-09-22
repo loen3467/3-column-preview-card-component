@@ -12,6 +12,7 @@ export function buttonDisabled(quantity){
             btnAddCard.removeAttribute("disabled")
             btnRemoveCard.removeAttribute("disabled","true")
         }
+        
 
     }
 }
