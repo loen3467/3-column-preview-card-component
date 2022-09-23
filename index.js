@@ -9,14 +9,11 @@ const state={
     quantity: maxCards,
 }
 
-//Crear botones
 createButton("Add Card", "addCard")
 createButton("Remove Card", "removeCard")
 
-//Petición del contenido de las tarjetas
 const contentCard = getContentCards()
 
-//Construcción de las tarjetas
 contentCard.forEach(item => { 
     const card = createCard(item)
     mount(card)
